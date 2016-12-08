@@ -1,9 +1,9 @@
 # WebCrawler
+
 WebCrawler exercise by Mark Dwyer
+=================================
 
-Here is an outline Web Crawler. 
-
-The WE Crawler starts at a URL and searches out <A> tags. If the href of the A tags are sub-pages of the original URI it will follow these pages as well and recursively descend until it runs out of links to follow. A well as <a> tags it locates <IMG> tags, looking for PNG, JPG, JPEG and GIF format files.  There is an amount of logging done simply to standard System.out.println. 
+The WEB Crawler starts at a URL and searches out <A> tags. If the href of the A tags are sub-pages of the original URI it will follow these pages as well and recursively descend until it runs out of links to follow. A well as <a> tags it locates <IMG> tags, looking for PNG, JPG, JPEG and GIF format files.  There is an amount of logging done simply to standard System.out.println. it returns the hrefs of the a tags or the file names of the img tags.  
 
 The Structure shared here is an Eclipse project containing a JEE Servlet WeApp client.  The webCrawler is included as a JAR file containing source code for review.  The code is a bit run-on and uses the JSOUP document model which offers a fast and easy capability for interrogating HTML pages. The basic servlet can be access by launching the index.html in any  browser.  The WebApp should be deployed to a TOMCAT or VFABRIC server. 
 
